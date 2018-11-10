@@ -8,7 +8,11 @@ app.get('/blue', function(req,res){
 });
 
 app.get('/green', function(req,res){
-    res.send('green')
-  });
+  res.send('green')
+});
+
+app.get('/red', function(req,res){
+  res.send('red')
+});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
